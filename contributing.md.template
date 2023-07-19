@@ -1,0 +1,11 @@
+# This is the contributing.md for {{ charm }}
+
+We have lots of general contributing guidelines.  They're all in this common file!
+
+{{ charm_specifics_section_A }}
+
+# Section B
+
+{{ charm_specifics_section_B }}
+
+{{ charm_additional_sections }}
