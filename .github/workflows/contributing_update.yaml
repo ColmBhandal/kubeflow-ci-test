@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Call Contributing Check and Update Action
-        uses: canonical/charmed-kubeflow-workflows/.github/workflows/contributing_update@KF-4012-contributing-template
+        uses: canonical/charmed-kubeflow-workflows/contributing_update@KF-4012-contributing-template
