@@ -1,13 +1,8 @@
-name: Contributing Update
-
-on:
-  workflow_dispatch
+name: 'Contributing Update'
+description: 'Checks Contributing.md file and updates if necessary'
   
-jobs:
-  call-action:
-    name: Call Contributing Check and Update Action
-    runs-on: ubuntu-22.04
-
-    steps:
-      - name: Call Contributing Check and Update Action
-        uses: canonical/charmed-kubeflow-workflows/.github/workflows/contributing_update@KF-4012-contributing-template
+runs:
+  using: 'composite'
+  steps:
+    - name: Call Contributing Check and Update Action
+      uses: canonical/charmed-kubeflow-workflows/.github/workflows/contributing_update@KF-4012-contributing-template
