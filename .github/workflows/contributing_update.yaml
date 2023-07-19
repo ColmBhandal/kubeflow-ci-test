@@ -3,4 +3,11 @@ name: Contributing Update
 on:
   workflow_dispatch:
   
-  
+jobs:
+  call-action:
+    name: Call Contributing Check and Update Action
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Call Contributing Check and Update Action
+        uses: canonical/charmed-kubeflow-workflows@KF-4012-contributing-template    
