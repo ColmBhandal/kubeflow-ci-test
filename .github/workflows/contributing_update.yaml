@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Call Contributing Check and Update Action
         uses: canonical/charmed-kubeflow-workflows/contributing_update@KF-4012-contributing-template
+        with:
+          branch: 'my-branch'
