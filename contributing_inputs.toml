@@ -1,2 +1,3 @@
-charm = "test-charm"
-tox_example_dev_env = "lint"
+charm="test-charm"
+tox_example_dev_env =    "lint"
+ os_base ="ubuntu-20.04"
