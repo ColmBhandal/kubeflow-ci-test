@@ -8,4 +8,3 @@ jobs:
     uses: canonical/charmed-kubeflow-workflows/.github/workflows/contributing_update_all.yaml@KF-4012-contributing-template
     with:
       branch: 'KF-4012-contributing-template'
-      charm-paths-action-branch: 'add-get-charm-paths'
