@@ -6,8 +6,8 @@ deploy_opts: |
   --resource oci-image=$(yq '.resources."oci-image"."upstream-source"' metadata.yaml)
 tox_example_test_env: "test"
 charm_specific_text: |+
-
-
+  
+  
   ## Updating the charm for new versions of the workload
 
   To upgrade the source and resources of this charm, you must:
