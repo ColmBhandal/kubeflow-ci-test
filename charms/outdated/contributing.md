@@ -70,16 +70,6 @@ To upgrade the source and resources of this charm, you must:
     - New or changed configurations passed to pebble workloads or through `pod.set_spec`
 1. Ensure integration and unit tests are passing; fix/adapt them otherwise
 
-## Updating the charm for new versions of the workload
-
-To upgrade the source and resources of this charm, you must:
-
-1. Bump the `oci-image` in `metadata.yaml`
-1. Update the charm source for any changes, such as:
-    - YAML manifests in `src/` and/or any Kubernetes resource in `pod_spec`
-    - New or changed configurations passed to pebble workloads or through `pod.set_spec`
-1. Ensure integration and unit tests are passing; fix/adapt them otherwise
-
 ## Canonical Contributor Agreement
 
 Canonical welcomes contributions to this charm. Please check out our [contributor agreement](https://ubuntu.com/legal/contributors) if you're interested in contributing.
