@@ -58,9 +58,7 @@ juju model-config logging-config="<root>=INFO;unit=DEBUG"
 # Deploy the charm
 juju deploy ./test-charm_ubuntu-20.04-amd64.charm \
   --resource oci-image=$(yq '.resources."oci-image"."upstream-source"' metadata.yaml)
-```
-
-## Updating the charm for new versions of the workload
+```## Updating the charm for new versions of the workload
 
 To upgrade the source and resources of this charm, you must:
 
