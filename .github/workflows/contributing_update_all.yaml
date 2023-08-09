@@ -7,4 +7,4 @@ jobs:
   update-contributing:
     uses: canonical/charmed-kubeflow-workflows/.github/workflows/contributing_update_all.yaml@KF-4012-contributing-template
     with:
-      branch: 'KF-4012-contributing-update'
+      branch: 'main'
